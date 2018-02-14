@@ -1,7 +1,6 @@
 ---
 title: "Software process - Floris den Heijer"
 ---
-
 # Software Process
 
 > Floris den Heijer, #5873355
@@ -15,9 +14,10 @@ title: "Software process - Floris den Heijer"
 
 ### Assignment 1
 
-Deadline|Link
---------|----
-11 Feb|...
+| Deadline | Links                                      |
+| -------- | ------------------------------------------ |
+| 11 Feb   | [Methods and processes](Ass1_Methods.md)   |
+| 11 Feb   | [Failed case overview](Ass1_FailedCase.md) |
 
 #### Failed case
 
@@ -25,16 +25,14 @@ Deadline|Link
 
 Browse through student work of past years to give you a good start. Give a summary: what was the goal of the project; how did they organize it ; what caused it to fail.
 
-[test link](#failed-case)
-
 #### Methods and Processes
 
 - [ ] Read about software methods and processes.
-    - [ ] Waterfall (paper Royce)
+    - [x] Waterfall (paper Royce)
     - [ ] Scrum
-    - [ ] Agile Manifesto
-    - [ ] RUP
-    - [ ] XP
+    - [x] Agile Manifesto
+    - [x] RUP
+    - [x] XP
     - [ ] DevOps
 - [ ] Provide a summary of these processes.
 - [ ] Explain what the difference is between them.
@@ -44,7 +42,9 @@ Browse through student work of past years to give you a good start. Give a summa
 
 #### Individual Assignment
 
-Deadline: Feb 25, submit draft on Feb 18 for feedback
+| Deadline | Links                             |
+| -------- | --------------------------------- |
+| 18 Feb   | [Draft on errors](Ass2_Errors.md) |
 
 - [ ] Questions to answer:
     - [ ] What type of errors are made during software development?
@@ -59,11 +59,6 @@ Use other relevant and recent papers to answer your questions.
 - Leprechauns, chapter 10: "The cost of defects: an illustrated history".
 - Making Software, chapter 25: Where do most Software Flaws come from?
 
-Check the lessons of one of Software Engineering greats of all time Gerald Weinberg[^1]:
-- <http://www.se-radio.net/2017/01/se-radio-episode-280-gerald-weinberg-on-bugs-errors-and-software-quality/>
-
-## References
-
-- [leprechauns][1](docs/leprechauns.epub)
+Check the lessons of one of Software Engineering greats of all time [Gerald Weinberg](http://www.se-radio.net/2017/01/se-radio-episode-280-gerald-weinberg-on-bugs-errors-and-software-quality/)[^1]
 
 [^1]: You can find his book on: <https://leanpub.com/errors>
