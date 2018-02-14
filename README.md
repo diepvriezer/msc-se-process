@@ -1,27 +1,37 @@
 ---
 title: "Software process - Floris den Heijer"
+toc:
+    depth_from: 1
+    depth_to: 3
+html:
+    toc: true
+    offline: false
+    embed_local_images: true
+    embed_svg: true
+
+print_background: true
 ---
 # Software Process
 
 > Floris den Heijer, #5873355
 > Software Engineering 2017-2018
 
-[TOC]
-
 <!-- https://mermaidjs.github.io/flowchart.html -->
 
 ## Assignment Progress
+
+Note: Hand-ins are located at [/handin](handin)
 
 ### Assignment 1
 
 | Deadline | Links                                      |
 | -------- | ------------------------------------------ |
-| 11 Feb   | [Methods and processes](Ass1_Methods.md)   |
-| 11 Feb   | [Failed case overview](Ass1_FailedCase.md) |
+| 11 Feb   | [Methods and processes](Ass1_Methods.html)   |
+| 11 Feb   | [Failed case overview](Ass1_FailedCase.html) |
 
 #### Failed case
 
-- [ ] Select a well documented famous failed case. Read about it.
+- [x] Select a well documented famous failed case. Read about it.
 
 Browse through student work of past years to give you a good start. Give a summary: what was the goal of the project; how did they organize it ; what caused it to fail.
 
@@ -34,8 +44,8 @@ Browse through student work of past years to give you a good start. Give a summa
     - [x] RUP
     - [x] XP
     - [ ] DevOps
-- [ ] Provide a summary of these processes.
-- [ ] Explain what the difference is between them.
+- [x] Provide a summary of these processes.
+- [x] Explain what the difference is between them.
 - [ ] Explain what problems they try to solve and how they approach it.
 
 ### Assignment 2
@@ -44,7 +54,7 @@ Browse through student work of past years to give you a good start. Give a summa
 
 | Deadline | Links                             |
 | -------- | --------------------------------- |
-| 18 Feb   | [Draft on errors](Ass2_Errors.md) |
+| 18 Feb   | [Draft on errors](Ass2_Errors.html) |
 
 - [ ] Questions to answer:
     - [ ] What type of errors are made during software development?

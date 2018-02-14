@@ -3,10 +3,17 @@ title: "Assignment 1: Software Methods and Processes"
 toc:
     depth_from: 1
     depth_to: 3
+html:
+    toc: true
+    offline: false
+    embed_local_images: true
+    embed_svg: true
+
+print_background: true
 ---
 # Software Methods and Processes
 
-- [ ] Methods
+<!-- - [ ] Methods
     - [x] Waterfall (paper Royce)
     - [ ] Scrum
     - [ ] DevOps
@@ -17,7 +24,7 @@ toc:
 - [x] Read about software methods and processes.
 - [x] Provide a summary of these processes.
 - [x] Explain what the difference is between them.
-- [ ] Explain what problems they try to solve and how they approach it.
+- [ ] Explain what problems they try to solve and how they approach it. -->
 
 ## Method comparisons
 
