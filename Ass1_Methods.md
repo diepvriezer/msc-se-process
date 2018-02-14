@@ -387,3 +387,26 @@ Quoting from [Kent Beck's Extreme Programming Explained][kent-beck], XP is a sty
 * Its reliance on practices that work with both the short-term instincts of the team members and the long-term interests of the project.
 
 [kent-beck]: https://books.google.nl/books?hl=en&lr=&id=G8EL4H4vf7UC&oi=fnd&pg=PR13&dq=Extreme+Programming+Explained&ots=jatLxtlQBm&sig=YmmzcvNPgBwp-sg7UD1MgQ1CabQ
+
+## DevOps
+Development == Operations, it has been since the 90's.
+
+> Netflix’s ChaosMonkey is an excellent, if extreme, example of a tool to ensure that a complex distributed application can survive outages; ChaosMonkey randomly kills instances and services within the application. The development and operations teams collaborate to ensure that the application is sufficiently robust to withstand constant random (and self-inflicted!) outages without degrading.
+
+>  As Allspaw points out, it’s important not to divorce developers from the consequences of their work since the fires are frequently set by their code
+
+> Although we used to practice “root cause analysis” after failures, we’re recognizing that finding out the single cause is unhelpful. Almost every outage is the result of a “perfect storm” of normal, everyday mishaps.
+
+Devops [1][devops]
+Devops (2014) [2][devops-2014]
+
+[devops]: http://radar.oreilly.com/2012/06/what-is-devops.html
+[devops-2014]: http://radar.oreilly.com/2014/06/revisiting-what-is-devops.html
+
+## Scrum
+
+Scrum is a framework for developing, delivering, and sustaining complex **products**. This definition consists of Scrum’s roles, events, artifacts, and the rules that bind them together.
+
+Guide: [3][scrum-guide]
+
+[scrum-guide]: https://www.scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-US.pdf#zoom=100

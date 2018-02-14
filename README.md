@@ -59,6 +59,12 @@ Use other relevant and recent papers to answer your questions.
 - Leprechauns, chapter 10: "The cost of defects: an illustrated history".
 - Making Software, chapter 25: Where do most Software Flaws come from?
 
+- Ideas
+    - Scale / open source
+    - Most expensive bugs
+    - Community trying to solve problems creates dozens more
+    - What are you dependent on?
+
 Check the lessons of one of Software Engineering greats of all time [Gerald Weinberg](http://www.se-radio.net/2017/01/se-radio-episode-280-gerald-weinberg-on-bugs-errors-and-software-quality/)[^1]
 
 [^1]: You can find his book on: <https://leanpub.com/errors>
