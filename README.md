@@ -16,18 +16,18 @@ print_background: true
 > Floris den Heijer, #5873355
 > Software Engineering 2017-2018
 
+[TOC]
+
 <!-- https://mermaidjs.github.io/flowchart.html -->
 
 ## Assignment Progress
-
-Note: Hand-ins are located at [/handin](handin)
 
 ### Assignment 1
 
 | Deadline | Links                                      |
 | -------- | ------------------------------------------ |
-| 11 Feb   | [Methods and processes](Ass1_Methods.html)   |
-| 11 Feb   | [Failed case overview](Ass1_FailedCase.html) |
+| 11 Feb   | [Methods and processes](Ass1_Methods.md)   |
+| 11 Feb   | [Failed case overview](Ass1_FailedCase.md) |
 
 #### Failed case
 
@@ -54,7 +54,7 @@ Browse through student work of past years to give you a good start. Give a summa
 
 | Deadline | Links                             |
 | -------- | --------------------------------- |
-| 18 Feb   | [Draft on errors](Ass2_Errors.html) |
+| 18 Feb   | [Draft on errors](Ass2_Errors.md) |
 
 - [ ] Questions to answer:
     - [ ] What type of errors are made during software development?

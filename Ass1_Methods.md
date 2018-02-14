@@ -8,6 +8,11 @@ html:
     offline: false
     embed_local_images: true
     embed_svg: true
+markdown:
+  image_dir: /assets
+  path: /handin/Ass1_methods.md
+  ignore_from_front_matter: true
+  absolute_image_path: false
 
 print_background: true
 ---
@@ -25,6 +30,8 @@ print_background: true
 - [x] Provide a summary of these processes.
 - [x] Explain what the difference is between them.
 - [ ] Explain what problems they try to solve and how they approach it. -->
+
+[TOC]
 
 ## Method comparisons
 
@@ -271,7 +278,7 @@ The Rational Unified Process is represented using four primary modeling elements
 * Workflows, the ‘when’
     - A workflow is a sequence of activities that produces a result of observable value. In UML terms, a workflow can be expressed as a sequence diagram, a collaboration diagram, or an activity diagram. 
 
-![RUP Humps](docs/methods/rup-humps.png "RUP Humps")
+![RUP Humps](/assets/rup-humps.png "RUP Humps")
 
 The core process workflows are divided into six core “engineering” workflows:
 
