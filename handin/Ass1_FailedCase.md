@@ -1,11 +1,16 @@
   
-  
 # Assignment 1: Failed Case: HealthCare.gov
   
   
   
   
-## Terms
+  
+* [Terms](/src/#terms )
+  
+  
+  
+  
+## Terms etc.
   
   
 GAO

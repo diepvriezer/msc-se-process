@@ -108,8 +108,7 @@ Here we see a gradual shift from Royce's strict sequential approach (testing "ph
 
 > First, there was a distinct move towards collaborative development, with people being accorded privileges over processes that formerly constrained them.
 
-* [A decade of agile methodologies](https://doi.org/10.1016/j.jss.2012.02.033)
-Torgeir Dingsøyr
+* [A decade of agile methodologies - Torgeir Dingsøyr](https://doi.org/10.1016/j.jss.2012.02.033)
 
 [decade-agile]: https://doi.org/10.1016/j.jss.2012.02.033
 

@@ -5,11 +5,30 @@
   
   
   
+* [Method comparisons](/src/#method-comparisons )
+	* [Similarities](/src/#similarities )
+	* [Differences](/src/#differences )
+* [Waterfall](/src/#waterfall )
+	* [Excerpts and notes](/src/#excerpts-and-notes )
+	* [Waterfall Summary](/src/#waterfall-summary )
+* [Rational Unified Process (RUP)](/src/#rational-unified-process-rup )
+	* [What is the Rational Unified Process?](/src/#what-is-the-rational-unified-process )
+	* [Best practices advertised](/src/#best-practices-advertised )
+	* [Process](/src/#process )
+	* [RUP Summary](/src/#rup-summary )
+* [Agile Manifesto](/src/#agile-manifesto )
+	* [Principles](/src/#principles )
+* [Extreme Programming (XP)](/src/#extreme-programming-xp )
+* [DevOps](/src/#devops )
+* [Scrum](/src/#scrum )
+  
+  
+  
   
 ## Method comparisons
   
   
-Following this section are my summaries (liberaly quoting where others do better) of the [waterfall](/#waterfall ) paper, [agile manifesto](/#agile-manifesto ), [RUP](/#rational-unified-process-rup ) and [XP](/#extreme-programming-xp ).
+Following this section are my summaries (liberaly quoting where others do better) of the [waterfall](/src/#waterfall ) paper, [agile manifesto](/src/#agile-manifesto ), [RUP](/src/#rational-unified-process-rup ) and [XP](/src/#extreme-programming-xp ).
   
 Method|Year|Tries to solve|Approach
 ------|----|--------------|---
@@ -92,8 +111,7 @@ Here we see a gradual shift from Royce's strict sequential approach (testing "ph
   
 > First, there was a distinct move towards collaborative development, with people being accorded privileges over processes that formerly constrained them.
   
-* [A decade of agile methodologies](https://doi.org/10.1016/j.jss.2012.02.033 )
-Torgeir Dingsøyr
+* [A decade of agile methodologies - Torgeir Dingsøyr](https://doi.org/10.1016/j.jss.2012.02.033 )
   
 [decade-agile]: https://doi.org/10.1016/j.jss.2012.02.033
   
