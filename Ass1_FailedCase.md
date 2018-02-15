@@ -1,17 +1,22 @@
 ---
-title: "Assignment 1: Failed case Healthcare.Gov"
-toc:
-    depth_from: 1
-    depth_to: 3
-html:
-    toc: true
-    offline: false
-    embed_local_images: true
-    embed_svg: true
-
-print_background: true
+markdown:
+  path: /handin/Ass1_FailedCase.md
+  absolute_image_path: true
+  
+export_on_save:
+  markdown: true
 ---
-# Failed Case: HealthCare.gov
+
+# Assignment 1: Failed Case: HealthCare.gov
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=3 orderedList=false} -->
+<!-- code_chunk_output -->
+
+* [Terms](#terms)
+
+<!-- /code_chunk_output -->
+
+## Terms
 
 GAO
 : Government Accountability Office
