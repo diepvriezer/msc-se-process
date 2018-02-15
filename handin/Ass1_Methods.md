@@ -128,34 +128,8 @@ This is to an extend valid, but the fundamental premise of the paper is that all
   
 > "They are preceded by two levels of requirements analysis, are separated by a program design step, and followed by a testing step."
   
-```mermaid
-graph LR
-    subgraph Simple step
-    Analysis --> Coding
-    Coding --> Analysis
-    end
-    subgraph Large Scale
-    a[Systems requirements]
-    b[Software requirements]
-    c[Analysis]
-    d[Program design]
-    e[Coding]
-    f[Testing]
-    g[Operation]
-    a-->b
-    b-->a
-    b-->c
-    c-->b
-    c-->d
-    d-->c
-    d-->e
-    e-->d
-    e-->f
-    f-->e
-    f-->g
-    g-->f
-    end
-```
+
+![](/assets/waterfall.png?0.882238541718612)  
   
 We don't get an anwer why these steps are necessary and sequential, only that they are **"distinctly different in the way they are executed"**, hinting it might make sense from a project management and resource allocation perspective. However he also admits **"the design iterations are never confined to the successive steps"**.
   

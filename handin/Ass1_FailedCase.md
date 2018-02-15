@@ -5,12 +5,12 @@
   
   
   
-* [Terms](/src/#terms )
+* [Terms etc](/src/#terms-etc )
   
   
   
   
-## Terms etc.
+## Terms etc
   
   
 GAO

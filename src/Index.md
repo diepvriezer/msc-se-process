@@ -1,6 +1,6 @@
 ---
 markdown:
-  path: /README.md
+  path: "/README.md"
   absolute_image_path: true
   
 export_on_save:

@@ -1,6 +1,6 @@
 ---
 markdown:
-  path: /handin/Ass1_FailedCase.md
+  path: "/handin/Ass1_FailedCase.md"
   absolute_image_path: true
   
 export_on_save:
