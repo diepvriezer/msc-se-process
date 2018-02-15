@@ -5,115 +5,131 @@
   
   
   
-* [Method comparisons](/src/#method-comparisons )
-	* [Similarities](/src/#similarities )
-	* [Differences](/src/#differences )
-* [Waterfall](/src/#waterfall )
-	* [Excerpts and notes](/src/#excerpts-and-notes )
-	* [Waterfall Summary](/src/#waterfall-summary )
-* [Rational Unified Process (RUP)](/src/#rational-unified-process-rup )
-	* [What is the Rational Unified Process?](/src/#what-is-the-rational-unified-process )
-	* [Best practices advertised](/src/#best-practices-advertised )
-	* [Process](/src/#process )
-	* [RUP Summary](/src/#rup-summary )
-* [Agile Manifesto](/src/#agile-manifesto )
-	* [Principles](/src/#principles )
-* [Extreme Programming (XP)](/src/#extreme-programming-xp )
-* [DevOps](/src/#devops )
-* [Scrum](/src/#scrum )
+* [Analysis](#analysis )
+	* [Similarities](#similarities )
+	* [Application differences](#application-differences )
+	* [Evolution](#evolution )
+	* [Current](#current )
+	* [Contrasts](#contrasts )
+* [Waterfall](#waterfall )
+	* [Excerpts and notes](#excerpts-and-notes )
+	* [Waterfall Summary](#waterfall-summary )
+* [Rational Unified Process (RUP)](#rational-unified-process-rup )
+	* [What is the Rational Unified Process?](#what-is-the-rational-unified-process )
+	* [Best practices advertised](#best-practices-advertised )
+	* [Process](#process )
+	* [RUP Summary](#rup-summary )
+* [Agile Manifesto](#agile-manifesto )
+	* [Principles](#principles )
+* [Extreme Programming (XP)](#extreme-programming-xp )
+* [DevOps](#devops )
+* [Scrum](#scrum )
+	* [Theory](#theory )
   
   
   
   
-## Method comparisons
+## Analysis
   
   
-Following this section are my summaries (liberaly quoting where others do better) of the [waterfall](/src/#waterfall ) paper, [agile manifesto](/src/#agile-manifesto ), [RUP](/src/#rational-unified-process-rup ) and [XP](/src/#extreme-programming-xp ).
+The following table describes my rough interpretation of the methods, what they try to solve and how they approach it.
   
 Method|Year|Tries to solve|Approach
 ------|----|--------------|---
 Waterfall|1970-1990|Deliver software on time and within budget|Rigid documentation and process, large design phase
 RUP|1998+|Deliver high-quality software on time and within budget|Embodiment of iteration and testing, linking best-practices from disciplines, visual modelling on process
+XP|1996|Productivity gap applying old methods in new environments|Short cycles, evolving planning, automate drudge, communicate structure through code, tests and oral communication
 Agile|2001+|Distance between customer and developer (or software)|Trust the individual, deliver fast, collaborate with customer, prepare for change
-XP|1996|Productivity burden|Short cycles, evolving planning, automate drudge, communicate structure through code, tests and oral communication
+Scrum|1990, 2003+|Developing, delivering and sustaining complex software|Easy to understand roles, formal rituals, complete transparency, scrum master and product owner as organizational entrypoints
+DevOps|2010+|Top-down management hindrances|Total shared ownership, culture change, promise theory, empathy?
   
 ### Similarities
   
   
-#### Continuous delivery / being lean / not wasting resources (not throwing things out):
+#### Reducing waste
   
   
->> Royce:
->>"What we have is an effective fallback position that tends to maximize the extent of early work that is salvageable and preserved."
+All methods share the desire to improve a situation, or reduce "waste". They all define waste somewhat differently, but share a desire to eliminate it as fast as possible.
+  
+Method|Waste|Quote
+---|---|--
+Royce|Design gaps|"What we have is an effective fallback position that tends to maximize the extent of early work that is salvageable and preserved"
+Agile|Customer dissatisfaction|"Frequent delivery of working software provides stakeholders with concrete feedback"
+RUP|Inefficient resource allocation|"[each iteration] grows incrementally from iteration to iteration to become the final system"
+XP|Excess process|"In XP you only do what you need to do to create value for the customer. You can’t carry a lot of baggage and move fast"
+DevOps|Human potential|"Are you building a machine made of human cogs, or a community of talent?"
+Scrum|Previously achieved productivity|"Scrum makes clear the relative efficacy of your product management and work techniques so that you can continuously improve the product, the team, and the working environment."
+  
+#### One-on-one
+  
+  
+Many direct similarities are found between RUP and Waterfall:
+  
+Who|Quote
+--|--
+RUP (purpose)|"high-quality software that meets the needs of its end-users, within a predictable schedule and budget"
+Royce (success)|"arriving at an operational state, on-time, and within costs"
+-|-
+RUP (Inception Phase)|"This involves identifying all use cases and describing a few significant ones"
+Royce (System requirements)|"Begin the design process with program designers, not analysts or programmers"
+-|-
+RUP (Elaboration Phase)|"... you must have the **"mile wide and inch deep"** view of the system."
+Royce (Preliminary Program Design)|"In this case a very special kind of broad competence is required on the part of the personnel involved"
+  
+XP and Agile are nearly identical at face value. Linking DevOps and Scrum is not necessary, but DevOps is in the spirit of Scrum in their belief in self-organizing teams of experts.
+  
+### Application differences
+  
+  
+RUP and Waterfall are aimed at improving large software development companies, whereas XP and Agile are mainly centered around individuals. Scrum seems more like a meta-process, creating self-awareness for the team in it's ability to achieve and providing reliable feedback and actions for management. In a sense these all share the drive to improve outward results, whereas DevOps is more about embracing empathy inside an organization, opting local promises over top-down structures.
+  
+### Evolution
+  
+  
+Taken together, the methods and the timeframe of their conception make sense. Consider this quote from Royce:
+> "[on analysis and coding] ... also the kind of development effort for which most customers are happy to pay, since both steps involve genuinely creative work which directly contributes to the usefulness of the final product".
+  
+Who exactly is his customer? How could one party order software of a scale necessitating waterfall without understanding those costs? Many steps later we find RUP integrating best practices and lessons learned from *not* spending that money, it's iterative approach basically eliminates a client from affecting the overall process too much.
+  
+Meanwhile languages and practices develop much faster than organizations, with customers demanding the latest (and companies selling it). Understanding the client is key to Agile, eliminating everything in it's path is found in XP. But you can't run an organization like that, not anything sensible.
+  
+So we arrive at Scrum, a compromise between management and self-organizing teams: you can do what you want, as long as it's achieving "our goals". You can sort of organize many Scrum teams with grids, but how scalable is this?
+  
+### Current
+  
+  
+> The more alignment you have, the more autonomy you can grant. The one enables the other.
+> http://www.scaledagileframework.com/agile-release-train/
+  
+That idea get's complex pretty fast:
+![Choo-choo](http://www.scaledagileframework.com/wp-content/uploads/2017/05/BP-4.5-potfolio-Not-title@2x.png )
+  
+The recent agile phase is characterized by Torgeir Dingsøyr in [A decade of agile methodologies](https://doi.org/10.1016/j.jss.2012.02.033 ) as:
+  
+> First, there was a distinct move towards collaborative development, with people being accorded privileges over processes that formerly constrained them.
 >
->> Agile:
->> "Frequent delivery of working software provides stakeholders with concrete feedback"
->
->> RUP iteration:
->> "... which grows incrementally from iteration to iteration to become the final system"
->
->> XP:
->> "In XP you only do what you need to do to create value for the customer. You can’t carry a lot of baggage and move fast."
+> Second, a dominant "lean" mentality was advocated with a view to minimizing unnecessary work, particularly with regard to the creation of wasteful documentation
+> 
+> Third, customers/stakeholders were no longer just at the fringes of software development, but actively shaped and guided the evolution of the end software product or service
+> 
+> Fourth, there was an acceptance of the fact that uncertainty was a part and parcel of software development, and that the inherent tendency to control variations through statistical and other means was futile
   
-With regards to that last quote from XP, recall that Royce stated "also the kind of development effort for which most customers are happy to pay, since both steps involve genuinely creative work which directly contributes to the usefulness of the final product".
-  
-#### Specifically between RUP and waterfall
+### Contrasts
   
   
-Between Royce's system requirements and RUP's inception phase:
-> RUP Inception phase:
-> This involves **identifying all use cases** and **describing a few significant ones**
->
-> Royce's System requirements:
-> "Begin the design process with program designers, not analysts or programmers."
+How these methods evolved and what aspect of software development they tackle leads to some contrasting views on the practical side of things, such as the role of documentation.
   
-Identical goals for RUP and Royce:
-> RUP's goal: 
-> "high-quality software that meets the needs of its end-users, within a predictable schedule and budget"
->
-> Royce's definition of project success:
-> "arriving at an operational state, on-time, and within costs"
-  
-Special demands for a critical phase:
-> RUP Elaboration phase:
-> "... you must have the **"mile wide and inch deep"** view of the system."
->
-> Royce's Preliminary Program Design:
-> "In this case a very special kind of broad competence is required on the part of the personnel involved"
-  
-### Differences
-  
-  
-#### Role of documentation
-  
-  
-Most clearly between XP and Waterfall, as should be expected.
 > Royce:
 > "The first rule of managing software development is **ruthless enforcement** of documentation requirements."
 >
 > XP:
-> "Reliance on oral communication, tests, and source code to communicate system structure and intent."
+> "Reliance on oral communication, tests, **and source code** to communicate system structure and intent."
   
-#### Role of testing
+Of course XP never intended to mean "no documentation", but it certainly meant less.
   
+Testing is another contrasting factor, where we see a gradual shift from Royce's strict sequential approach (testing "phase"), via RUP's "larger allocation towards testing" (i.e. test the use-cases, plans, stakeholders, everything, as well as the construction phase), towards XP and Agile's aproach (embodies testing), up to Scrum (definition of done: passing regression tests).
   
-Here we see a gradual shift from Royce's strict sequential approach (testing "phase"), via RUP's "larger allocation towards testing" (i.e. test the use-cases, plans, stakeholders, everything, as well as the construction phase), towards XP and Agile's aproach (embodies testing), up to Scrum (definition of done: passing regression tests).
-  
-#### Perspective
-  
-  
-- Project management
-    - Waterfall
-    - RUP
-- Programmer / Developer
-    - Agile
-    - XP
-  
-> First, there was a distinct move towards collaborative development, with people being accorded privileges over processes that formerly constrained them.
-  
-* [A decade of agile methodologies - Torgeir Dingsøyr](https://doi.org/10.1016/j.jss.2012.02.033 )
-  
-[decade-agile]: https://doi.org/10.1016/j.jss.2012.02.033
+------
   
 ## Waterfall
   
@@ -129,7 +145,7 @@ This is to an extend valid, but the fundamental premise of the paper is that all
 > "They are preceded by two levels of requirements analysis, are separated by a program design step, and followed by a testing step."
   
 
-![](/assets/waterfall.png?0.882238541718612)  
+![](../assets/waterfall.png?0.6627916285485564)  
   
 We don't get an anwer why these steps are necessary and sequential, only that they are **"distinctly different in the way they are executed"**, hinting it might make sense from a project management and resource allocation perspective. However he also admits **"the design iterations are never confined to the successive steps"**.
   
@@ -270,7 +286,7 @@ The Rational Unified Process is represented using four primary modeling elements
 * Workflows, the ‘when’
     - A workflow is a sequence of activities that produces a result of observable value. In UML terms, a workflow can be expressed as a sequence diagram, a collaboration diagram, or an activity diagram. 
   
-![RUP Humps](/assets/rup-humps.png "RUP Humps")
+![RUP Humps](../assets/rup-humps.png "RUP Humps")
   
 The core process workflows are divided into six core “engineering” workflows:
   
@@ -417,14 +433,16 @@ Development = Operations, it has been since the 90's. Developers and operations 
   
 > Although we used to practice “root cause analysis” after failures, we’re recognizing that finding out the single cause is unhelpful. Almost every outage is the result of a “perfect storm” of normal, everyday mishaps.
   
-  
 > Netflix’s ChaosMonkey is an excellent, if extreme, example of a tool to ensure that a complex distributed application can survive outages; ChaosMonkey randomly kills instances and services within the application. The development and operations teams collaborate to ensure that the application is sufficiently robust to withstand constant random (and self-inflicted!) outages without degrading.
   
 >  As Allspaw points out, it’s important not to divorce developers from the consequences of their work since the fires are frequently set by their code
   
+> Top-down management has long insisted that, when there’s a failure, it must be traced to a single root cause, which usually ends up being “human error.” But for complex systems, there is no root cause. This is an extremely important point: as we’ve pointed out, all systems are distributed, and all systems are complex systems.
   
-Devops [1][devops]
-Devops (2014) [2][devops-2014]
+Sources:
+  
+* [Devops (2012)][devops]
+* [Revisting DevOps (2014)][devops-2014]
   
 [devops]: http://radar.oreilly.com/2012/06/what-is-devops.html
 [devops-2014]: http://radar.oreilly.com/2014/06/revisiting-what-is-devops.html
@@ -432,9 +450,50 @@ Devops (2014) [2][devops-2014]
 ## Scrum
   
   
-Scrum is a framework for developing, delivering, and sustaining complex **products**. This definition consists of Scrum’s roles, events, artifacts, and the rules that bind them together.
+Scrum is a framework for developing, delivering, and sustaining complex products, where within which you can employ various processes and techniques. This definition consists of Scrum’s roles, events, artifacts, and the rules that bind them together.
   
-Guide: [3][scrum-guide]
+### Theory
   
-[scrum-guide]: https://www.scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-US.pdf#zoom=100
+  
+Three pillars of scrum:
+  
+* Transparency
+    * Common language shared by all
+    * Common definition of "done"
+* Inspection
+    * Frequent inspection of artifacts and progress "to detect undesirable variances"
+* Adaptation
+    * When an inspector decides a process deviates outside acceptable limits, an adjustment is made during one of the four formal events
+  
+#### Scrum Events
+  
+  
+1. Sprint planning
+2. Daily Scrum
+3. Sprint Review
+4. Sprint Retrospective
+  
+#### Scrum Team
+  
+  
+* Product Owner
+    * Sole person responsible for maintaining the backlog
+    * Orders goals to achieve missions and goals
+    * Ensuring the development team understands the goals
+    * Ensuring the backlog is visible to all
+* Development Team
+    * Self-organizing (no-one tells you how to do it)
+    * No titles or sub-teams
+    * Cross-functional teams
+    * Accountability is shared
+* Scrum Master
+    * Promoting Scrum
+    * (To Owner) Finding techniques for backlog management, assisting in planning, facilitating scrum events
+    * (To Team) Coaching, helping, removing impediments
+  
+> "Scrum makes clear the relative efficacy of your product management and work techniques so that you can continuously improve the product, the team, and the working environment"
+  
+Sources:
+  
+* [Scrum Guide (2017)](https://www.scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-US.pdf#zoom=100 )
   

@@ -26,16 +26,16 @@ Browse through student work of past years to give you a good start. Give a summa
 #### Methods and Processes
   
   
-- [ ] Read about software methods and processes.
+- [x] Read about software methods and processes.
     - [x] Waterfall (paper Royce)
-    - [ ] Scrum
+    - [x] Scrum
     - [x] Agile Manifesto
     - [x] RUP
     - [x] XP
     - [x] DevOps
 - [x] Provide a summary of these processes.
 - [x] Explain what the difference is between them.
-- [ ] Explain what problems they try to solve and how they approach it.
+- [x] Explain what problems they try to solve and how they approach it.
   
 ### Assignment 2
   
